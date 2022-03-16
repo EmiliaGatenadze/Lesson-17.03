@@ -37,7 +37,7 @@ header code*/
 /*section styles*/
 .wraper{
 	width: 400px;
-	height: 300PX;
+	height: 400PX;
 	background-color: yellow;
 	/*იმისთვის რომ შვილი ბლოკი არ გაცდეს მშობელი ბლოკის საზღვრებს.*/
 	position: relative;
@@ -53,4 +53,12 @@ header code*/
 	top: 150px;
 	left: 100px;
 
+}
+.child-box2{
+	width:150PX ;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	top: 180px;
+	left: 150px;
 }
