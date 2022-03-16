@@ -1,0 +1,56 @@
+header code*/
+.logo{
+	display: inline-block;
+	/*დაშორება მარჯვნიდან*/
+	margin-right: 50px;
+}
+.navigation{
+	display: inline-block;
+}
+.nav-li{
+	display: inline-block;
+	/*დაშორება ლისტებს შორის*/
+	margin-right: 15px;
+}
+/*მთლიანი ჰედერი*/
+.header-wraper{
+	background-color: lightblue;
+	/*დაშორება შიდა ელემენტებს შორის ზემოდან ჩამოწევა*/
+	padding: 30px; 
+	/*მთლიანი ჰედერის დაფიქსვა*/
+	position: fixed;
+	/*შემდეგ შეგვყავს პოზიცია. სტანდარტული პოზიციონირება არის*/
+	top: 0;
+	left: 0;
+	/*ამის შემდეგ ჰედერი აღარ დაიკავებს 100%_ს. მის გასაშლელად*/
+	width: 100%;
+}
+/*იმისათვის რომ სექცია არ დაიმალოს ჰედერის უკან უნდა გავწეროთ 
+ამ ორი კოდიდან რომელიმე*/
+.section-about{
+	margin-top: 76px;
+}
+/*body{
+	padding-top: 76px;
+}
+
+/*section styles*/
+.wraper{
+	width: 400px;
+	height: 300PX;
+	background-color: yellow;
+	/*იმისთვის რომ შვილი ბლოკი არ გაცდეს მშობელი ბლოკის საზღვრებს.*/
+	position: relative;
+
+}
+.child-box{
+	width:150PX ;
+	height: 150px;
+	background-color: blue;
+	/*იმისათვის რომ მისი პოზიციონირება შევცვალო უნდა გამოვიყენო
+	 პოსიშენ პარამეტრები ლურჯ ბლოკზე.*/
+	position: absolute;
+	top: 150px;
+	left: 100px;
+
+}
