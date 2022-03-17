@@ -52,6 +52,7 @@ header code*/
 	position: absolute;
 	top: 150px;
 	left: 100px;
+	z-index: 2;
 
 }
 .child-box2{
@@ -61,4 +62,19 @@ header code*/
 	position: absolute;
 	top: 180px;
 	left: 150px;
+}
+/*image*/
+.img1{
+	width: 700px;
+}
+.text-image{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	color: #fff;
+	font-size: 35px;
+
+}
+.image-wraper{
+	position: relative;
 }
