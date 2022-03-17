@@ -70,11 +70,12 @@ header code*/
 .text-image{
 	position: absolute;
 	top: 100px;
-	left: 150px;
-	color: #fff;
+	right: 150px;
+	color: red;
 	font-size: 35px;
 
 }
 .image-wraper{
 	position: relative;
+	width: 700px;
 }
