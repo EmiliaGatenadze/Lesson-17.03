@@ -65,7 +65,7 @@ header code*/
 }
 /*image*/
 .img1{
-	width: 700px;
+	width: 100%;
 }
 .text-image{
 	position: absolute;
@@ -77,5 +77,6 @@ header code*/
 }
 .image-wraper{
 	position: relative;
-	width: 700px;
+	width: 100%;
+	/*display: inline-block;*/
 }
